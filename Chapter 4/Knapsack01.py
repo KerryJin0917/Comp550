@@ -11,7 +11,7 @@ def KnapsackDP(v, w, B):
             else:
                 d[i][j] = d[i - 1][j]
     return d[n][B]
-
+6
 if __name__ == "__main__":
     # Example 1
     print("Example 1:")
